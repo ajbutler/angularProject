@@ -1,0 +1,91 @@
+@mixin breakpoint($point) {
+  //grid aligned media queries
+  @if $point == fromMedium {
+    @media (min-width: 40.063em) { @content; } //641px
+  }
+  @else if $point == fromLarge {
+    @media (min-width: 64.063em) { @content; } //1025px
+  }
+  @else if $point == toLarge {
+    @media (max-width: 64.063em) { @content; } //1025px
+  }
+  @else {
+    @media (min-width: $point) { @content; } //custom
+  }
+}
+
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
+// EXAMPLE USAGE @include transition(all, 0.3s, ease-in);
+
+@mixin linear-gradient($fromColor, $toColor) {
+  background-color: $toColor;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor));
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor);
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor);
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor);
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor);
+  background-image:         linear-gradient(top, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');
+}
+
+// To use: add "@extend %clearfix;" to container that requires a clearfix
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+@mixin font-face($font-family, $file-path) {
+  @font-face {
+    font-family: $font-family;
+      src: url('#{$file-path}.eot');
+      src: url('#{$file-path}.eot?#iefix') format('embedded-opentype'),
+           url('#{$file-path}.woff') format('woff'),
+           url('#{$file-path}.ttf') format('truetype'),
+           url('#{$file-path}.svg##{$font-family}') format('svg');
+  }
+  // Chrome for Windows rendering fix: http://www.adtrak.co.uk/blog/font-face-chrome-rendering/
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+      font-family: $font-family;
+        src: url('#{$file-path}.svg##{$font-family}') format('svg');
+    }
+  }
+}
+
+//example
+//@include font-face(default-icons, '../fonts/default-icons/default-icons');

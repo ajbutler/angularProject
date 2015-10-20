@@ -1,0 +1,468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"is--",
+				"is--visible"
+			],
+			[
+				"canv",
+				"offCanvasClose"
+			],
+			[
+				"main",
+				"main__navigation"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"primary",
+				"primary-color2"
+			],
+			[
+				"line",
+				"line-3"
+			],
+			[
+				"bck",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bod",
+				"border-top"
+			],
+			[
+				"prim",
+				"primary-color1"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"hea",
+				"header	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 469,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/view1/view1.html",
+			"settings":
+			{
+				"buffer_size": 39,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.html",
+			"settings":
+			{
+				"buffer_size": 3656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/js/jquery.min.js",
+			"settings":
+			{
+				"buffer_size": 84345,
+				"line_ending": "Unix",
+				"name": "/*! jQuery v2.1.4 | (c) 2005, 2015 jQuery Foundati"
+			}
+		},
+		{
+			"file": "app/assets/sass/boiler.scss",
+			"settings":
+			{
+				"buffer_size": 3700,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/js/main.js",
+			"settings":
+			{
+				"buffer_size": 1600,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/abutler-/Sites/jbutlerphotography/app/index.php",
+		"/Users/abutler-/Sites/jbutlerphotography/bower.json",
+		"/Users/abutler-/Sites/jbutlerphotography/app/index-async.html",
+		"/Applications/MAMP/htdocs/jbutlerphotography/assets/sass/boiler.scss",
+		"/Applications/MAMP/htdocs/jbutlerphotography/assets/sass/normalize.scss",
+		"/Users/abutler-/Sites/Websites/ashleygriggs/_main.css",
+		"/Users/abutler-/Sites/Websites/ashleygriggs/index.html",
+		"/Users/abutler-/Sites/Websites/ashleygriggs/tuition.html",
+		"/Volumes/Cruzer Blade/MediaQueryTest/main.css",
+		"/Applications/MAMP/htdocs/jbutlerphotography/assets/Gruntfile.js",
+		"/Applications/MAMP/htdocs/jbutlerphotography/assets/sass/main.scss",
+		"/Applications/MAMP/htdocs/jbutlerphotography/index.php",
+		"/Applications/MAMP/htdocs/jbutlerphotography/pages/home.php",
+		"/Applications/MAMP/htdocs/jbutlerphotography/.htaccess",
+		"/Applications/MAMP/htdocs/lesleypaints.com/includes/head.php",
+		"/Applications/MAMP/htdocs/jbutlerphotography/assets/sass/mixins.scss",
+		"/Applications/MAMP/htdocs/jbutlerphotography/assets/package.json",
+		"/Applications/MAMP/htdocs/lesleypaints.com/index.php",
+		"/Applications/MAMP/htdocs/ellfitness.co.uk/index.html",
+		"/Applications/MAMP/htdocs/kasia.co.uk/index.html",
+		"/Applications/MAMP/htdocs/kasia.co.uk/css/main.css",
+		"/Applications/MAMP/htdocs/ellfitness.co.uk/css/main.css",
+		"/Users/abutler-/Downloads/Parallax_scrolling/styles/screen.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"1000px",
+			"quicksand",
+			"primary",
+			"img-shadow",
+			"bioTextRight",
+			"Evolver",
+			"fonts"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 469,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							],
+							[
+								217,
+								217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/view1/view1.html",
+					"settings":
+					{
+						"buffer_size": 39,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/index.html",
+					"settings":
+					{
+						"buffer_size": 3656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2371,
+								2376
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/assets/js/jquery.min.js",
+					"settings":
+					{
+						"buffer_size": 84345,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84345,
+								84345
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*! jQuery v2.1.4 | (c) 2005, 2015 jQuery Foundati",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "app/assets/sass/boiler.scss",
+					"settings":
+					{
+						"buffer_size": 3700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1835,
+								1850
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1238.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/assets/js/main.js",
+					"settings":
+					{
+						"buffer_size": 1600,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								817,
+								817
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.309568069316,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 114.0,
+	"status_bar_visible": true
+}
