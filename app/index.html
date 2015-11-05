@@ -29,24 +29,41 @@
   </header>
   <nav class="main__navigation">
     <ul class="menu">
-      <li><a href="#/view1">view1</a></li>
-      <li><a href="#/view2">view2</a></li>
-      <li><a href="#/view3">view3</a></li>
-      <li><a href="#/view4">view4</a></li>
-      <li><a href="#/view5">view5</a></li>
+      <li><a href="#/view1">Home</a></li>
+      <li><a href="#/view2">Photography Gallery</a></li>
+      <li><a href="#/view3">Digital Artwork Portfolio</a></li>
+      <li><a href="#/view4">Contact</a></li>
+      <li><a href="#/view5">Social</a></li>
     </ul>
   </nav>
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
-  <main class="content__main">
-    <div ng-view></div>\
+  <main class="content__main" ng-view>
+
   </main>
 
 
-  <footer class="footer__wrapper">
-
+  <footer class="footer__wrapper column">
+    <div class="social__icons">
+      <a href="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486.392 486.392" enable-background="new 0 0 486.392 486.392">
+          <path d="m464.41 0h-442.47c-12.1 0-21.948 9.819-21.948 21.918v442.56c0 12.07 9.849 21.918 21.948 21.918h442.46c12.13 0 21.979-9.849 21.979-21.918v-442.56c.001-12.1-9.849-21.918-21.978-21.918m-221.22 158.32c46.876 0 84.88 37.999 84.88 84.88s-37.999 84.88-84.87 84.88-84.87-37.999-84.87-84.87 37.999-84.87 84.87-84.87m182.4 267.27h-364.79v-212.8h40.04c-2.098 9.819-3.314 19.972-3.314 30.399 0 80.35 65.36 145.67 145.67 145.67 80.35 0 145.67-65.33 145.67-145.67 0-10.427-1.216-20.58-3.283-30.399h40.01v212.8zm0-273.6h-91.2v-91.2h91.2v91.2"/>
+        </svg>
+      </a>
+      <a href="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="430.11" height="430.11" viewBox="0 0 430.113 430.114" enable-background="new 0 0 430.113 430.114">
+          <path d="m158.08 83.3c0 10.839 0 59.22 0 59.22h-43.38v72.41h43.38v215.18h89.12v-215.18h59.805c0 0 5.601-34.721 8.316-72.69-7.784 0-67.784 0-67.784 0s0-42.13 0-49.51c0-7.4 9.717-17.354 19.321-17.354 9.586 0 29.818 0 48.557 0 0-9.859 0-43.924 0-75.39-25.02 0-53.48 0-66.02 0-93.52-.005-91.32 72.48-91.32 83.3"/>
+        </svg>
+      </a>      
+      <a href="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 485.411 485.411" enable-background="new 0 0 485.411 485.411">
+          <path d="m0 81.82v321.76h485.41v-321.76h-485.41m242.71 198.7l-199.1-174.84h398.19l-199.09 174.84m-79.31-37.877l-139.53 122.53v-245.06l139.53 122.53m18.09 15.884l61.22 53.762 61.22-53.762 138 121.19h-398.44l138-121.19m140.53-15.878l139.54-122.54v245.06l-139.54-122.52"/>
+        </svg>
+      </a>
+    </div>
+    <p class="copy">&copy;Jbutlerphotography.com</p>
   </footer>
 
   <!-- In production use:
@@ -54,13 +71,27 @@
   -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
   <script src="app.js"></script>
-  <script src="view1/view1.js"></script>
-  <script src="view2/view2.js"></script>
+  <script src="partials/view1/view1.js"></script>
+  <script src="partials/view2/view2.js"></script>
   <script src="components/version/version.js"></script>
   <script src="components/version/version-directive.js"></script>
   <script src="components/version/interpolate-filter.js"></script>
-  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/services.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+
+
+    // document.addEventListener('DOMContentLoaded', function () {
+    //     var percentage = document.querySelector('.hero__slider');
+
+    //     lory(percentage, {
+    //         infinite: 1
+    //     });
+    // });
+
+  </script>
+    <script src="assets/js/lory.min.js"></script>
 </body>
 </html>

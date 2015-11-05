@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"sec",
+				"secondary-color3"
+			],
+			[
 				"get",
 				"getElementById"
 			],
@@ -95,8 +107,17 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 3656,
+				"buffer_size": 7095,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/js/lory.min.js",
+			"settings":
+			{
+				"buffer_size": 6217,
+				"line_ending": "Unix",
+				"name": "!function(e,t){\"object\"==typeof exports&&\"object\"="
 			}
 		},
 		{
@@ -109,10 +130,66 @@
 			}
 		},
 		{
-			"file": "app/assets/sass/boiler.scss",
+			"file": "app/bower_components/lory/demo/index.html",
 			"settings":
 			{
-				"buffer_size": 3700,
+				"buffer_size": 28866,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/sass/helper.scss",
+			"settings":
+			{
+				"buffer_size": 1391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/sass/header.scss",
+			"settings":
+			{
+				"buffer_size": 707,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/sass/navigation.scss",
+			"settings":
+			{
+				"buffer_size": 720,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/sass/fonts.scss",
+			"settings":
+			{
+				"buffer_size": 529,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/sass/mixins.scss",
+			"settings":
+			{
+				"buffer_size": 3108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/sass/hero.scss",
+			"settings":
+			{
+				"buffer_size": 336,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 232,
 				"line_ending": "Unix"
 			}
 		},
@@ -121,6 +198,14 @@
 			"settings":
 			{
 				"buffer_size": 1600,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/abutler-/Sites/angularSeedBoot/angularjs-bootstrap-seed/app/index.html",
+			"settings":
+			{
+				"buffer_size": 2659,
 				"line_ending": "Unix"
 			}
 		}
@@ -157,6 +242,11 @@
 	},
 	"file_history":
 	[
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/main.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/boiler.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/footer.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/content.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/header.scss",
 		"/Users/abutler-/Sites/jbutlerphotography/app/index.php",
 		"/Users/abutler-/Sites/jbutlerphotography/bower.json",
 		"/Users/abutler-/Sites/jbutlerphotography/app/index-async.html",
@@ -187,9 +277,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/abutler-/Sites/jbutlerphotography"
 		]
 	},
 	"find_state":
@@ -197,6 +288,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".frame",
+			"dispatchEvent",
+			"target",
+			"header",
+			"\n",
+			"<section>",
+			"Title",
+			"</secti",
+			"background-color .4s ease",
+			"100",
 			"1000px",
 			"quicksand",
 			"primary",
@@ -268,7 +369,7 @@
 						[
 							[
 								39,
-								0
+								39
 							]
 						],
 						"settings":
@@ -286,15 +387,15 @@
 					"file": "app/index.html",
 					"settings":
 					{
-						"buffer_size": 3656,
+						"buffer_size": 7095,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2371,
-								2376
+								3348,
+								3348
 							]
 						],
 						"settings":
@@ -304,13 +405,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13.0,
+						"translation.y": 276.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "app/assets/js/lory.min.js",
+					"settings":
+					{
+						"buffer_size": 6217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								6217
+							]
+						],
+						"settings":
+						{
+							"auto_name": "!function(e,t){\"object\"==typeof exports&&\"object\"=",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 42786.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "app/assets/js/jquery.min.js",
 					"settings":
 					{
@@ -321,8 +449,8 @@
 						"selection":
 						[
 							[
-								84345,
-								84345
+								32159,
+								32159
 							]
 						],
 						"settings":
@@ -335,27 +463,55 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 4,
-					"file": "app/assets/sass/boiler.scss",
+					"buffer": 5,
+					"file": "app/bower_components/lory/demo/index.html",
 					"settings":
 					{
-						"buffer_size": 3700,
+						"buffer_size": 28866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1835,
-								1850
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "app/assets/sass/helper.scss",
+					"settings":
+					{
+						"buffer_size": 1391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
 							]
 						],
 						"settings":
@@ -365,13 +521,175 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1238.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 7,
+					"file": "app/assets/sass/header.scss",
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/assets/sass/navigation.scss",
+					"settings":
+					{
+						"buffer_size": 720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/assets/sass/fonts.scss",
+					"settings":
+					{
+						"buffer_size": 529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/assets/sass/mixins.scss",
+					"settings":
+					{
+						"buffer_size": 3108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								179,
+								179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/assets/sass/hero.scss",
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								326,
+								326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/assets/sass/main.scss",
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
 					"file": "app/assets/js/main.js",
 					"settings":
 					{
@@ -382,14 +700,42 @@
 						"selection":
 						[
 							[
-								817,
-								817
+								888,
+								888
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/abutler-/Sites/angularSeedBoot/angularjs-bootstrap-seed/app/index.html",
+					"settings":
+					{
+						"buffer_size": 2659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2115,
+								2115
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -428,7 +774,7 @@
 		"cols":
 		[
 			0.0,
-			0.309568069316,
+			0.357018180181,
 			1.0
 		],
 		"rows":
@@ -463,6 +809,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 114.0,
+	"side_bar_width": 301.0,
 	"status_bar_visible": true
 }

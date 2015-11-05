@@ -1,6 +1,7 @@
 var appCanvas = {
 	offCanvasOpen: function(){
 		document.getElementById('off-canvas__trigger').classList.add('is--active');
+		document.body.classList.add('navigation--active');
 		var navigationItems = document.querySelectorAll('.main__navigation ul li');
 
 		for(var i = 0; navigationItems.length > i; i++){
@@ -16,6 +17,7 @@ var appCanvas = {
 	},
 	offCanvasClose: function(){
 		document.getElementById('off-canvas__trigger').classList.remove('is--active');
+		document.body.classList.remove('navigation--active');
 		var navigationItems = document.querySelectorAll('.main__navigation ul li');
 		for(var i = (navigationItems.length - 1); i >= 0; i--){
 			var currentNavItem = navigationItems.item(i);
@@ -30,7 +32,8 @@ var appCanvas = {
 	},
 	canvasInit: function(){
 		var menuTrigger = document.getElementById('off-canvas__trigger');
-		menuTrigger.addEventListener("click", function(){
+		menuTrigger.addEventListener("click", function(e){
+			e.preventDefault();
 			if(menuTrigger.classList.contains('is--active')){
 				appCanvas.offCanvasClose();
 			} else {
