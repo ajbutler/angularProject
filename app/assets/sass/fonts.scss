@@ -1,0 +1,36 @@
+@include font-face('firesans', '/app/assets/fonts/firasans-book-webfont');
+@include font-face('sourcesans', '/app/assets/fonts/sourcesanspro-light-webfont');
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+h1 {
+	font: normal 24px / 1 'firesans', arial;
+}
+
+h2 {
+	font: normal 18px / 1 'firesans', arial;
+}
+
+h3 {
+	font: normal 16px / 1 'firesans', arial;
+}
+
+h4 {
+	font: normal 14px / 1 'firesans', arial;
+}
+
+h5 {
+	font: normal 12px / 1 'firesans', arial;
+}
+
+h6 {
+	font: normal 9px / 1 'firesans', arial;
+}
+
+p {
+	font: normal 14px 'sourcesans', arial;
+}

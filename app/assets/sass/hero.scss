@@ -1,0 +1,55 @@
+.hero__slider {
+
+	.frame {
+		width: 100vw;
+		position: relative;
+		font-size: 0;
+		line-height: 0;
+		overflow: hidden;
+		white-space: nowrap;
+		background-color: #000;
+	}
+	 
+	.slides {
+		display: inline-block;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		position: relative; 
+		display: inline-block;
+		width: 100vw;
+
+		img {
+			height: calc(100vh - 50px);
+			width: auto;
+			pointer-events: none;
+			opacity: 0.55;
+		}
+	}
+
+	.hero__content {
+		width: 410px;
+		position: absolute;
+		left: calc(50% - 205px);
+		top: calc(50% - 75px);
+		color: #FFF;
+		text-align: center;
+		z-index: 50;
+
+		h2 {
+			color: #FFF;
+			font-size: 12px;
+		}
+
+		svg {
+			width: 175px;
+			height: 70px;
+			fill: #FFF;
+		}
+	}
+}

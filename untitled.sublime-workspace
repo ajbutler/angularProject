@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-transform"
+			],
+			[
+				"color",
+				"primary-color1"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
 				"text-",
 				"text-transform"
 			],
@@ -32,10 +48,6 @@
 				"main__navigation"
 			],
 			[
-				"trans",
-				"transform"
-			],
-			[
 				"primary",
 				"primary-color2"
 			],
@@ -48,20 +60,12 @@
 				"background-color"
 			],
 			[
-				"back",
-				"background-color"
-			],
-			[
 				"bod",
 				"border-top"
 			],
 			[
 				"prim",
 				"primary-color1"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"backgrou",
@@ -96,108 +100,42 @@
 			}
 		},
 		{
-			"file": "app/view1/view1.html",
+			"file": "app/partials/view2/view2.html",
 			"settings":
 			{
-				"buffer_size": 39,
+				"buffer_size": 889,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/index.html",
+			"file": "app/partials/view2/view2-details.html",
 			"settings":
 			{
-				"buffer_size": 7095,
+				"buffer_size": 811,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/js/lory.min.js",
+			"file": "app/partials/view2/view2.js",
 			"settings":
 			{
-				"buffer_size": 6217,
-				"line_ending": "Unix",
-				"name": "!function(e,t){\"object\"==typeof exports&&\"object\"="
-			}
-		},
-		{
-			"file": "app/assets/js/jquery.min.js",
-			"settings":
-			{
-				"buffer_size": 84345,
-				"line_ending": "Unix",
-				"name": "/*! jQuery v2.1.4 | (c) 2005, 2015 jQuery Foundati"
-			}
-		},
-		{
-			"file": "app/bower_components/lory/demo/index.html",
-			"settings":
-			{
-				"buffer_size": 28866,
+				"buffer_size": 724,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/sass/helper.scss",
+			"file": "app/assets/sass/animations.scss",
 			"settings":
 			{
-				"buffer_size": 1391,
+				"buffer_size": 590,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/assets/sass/header.scss",
+			"file": "app/assets/sass/content.scss",
 			"settings":
 			{
-				"buffer_size": 707,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/sass/navigation.scss",
-			"settings":
-			{
-				"buffer_size": 720,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/sass/fonts.scss",
-			"settings":
-			{
-				"buffer_size": 529,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/sass/mixins.scss",
-			"settings":
-			{
-				"buffer_size": 3108,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/sass/hero.scss",
-			"settings":
-			{
-				"buffer_size": 336,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/sass/main.scss",
-			"settings":
-			{
-				"buffer_size": 232,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/js/main.js",
-			"settings":
-			{
-				"buffer_size": 1600,
+				"buffer_size": 1451,
 				"line_ending": "Unix"
 			}
 		},
@@ -206,6 +144,62 @@
 			"settings":
 			{
 				"buffer_size": 2659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/js/services.js",
+			"settings":
+			{
+				"buffer_size": 316,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/partials/view1/view1.js",
+			"settings":
+			{
+				"buffer_size": 276,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/js/animations.js",
+			"settings":
+			{
+				"buffer_size": 52,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 442,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/sass/main.scss",
+			"settings":
+			{
+				"buffer_size": 259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/data/bubble-rose.json",
+			"settings":
+			{
+				"buffer_size": 287,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/data/phones.json",
+			"settings":
+			{
+				"buffer_size": 5684,
 				"line_ending": "Unix"
 			}
 		}
@@ -242,13 +236,35 @@
 	},
 	"file_history":
 	[
+		"/Users/abutler-/Sites/jbutlerphotography/app/data/image-details/motorola-xoom-with-wi-fi.json",
+		"/Users/abutler-/Sites/jbutlerphotography/app/data/phones2.json",
+		"/Users/abutler-/Sites/jbutlerphotography/app/data/phones.json",
+		"/Users/abutler-/Sites/jbutlerphotography/app/data/image-details/phones.json",
+		"/Users/abutler-/Sites/jbutlerphotography/app/index.html",
+		"/Users/abutler-/Sites/jbutlerphotography/app/app.js",
+		"/Users/abutler-/Sites/jbutlerphotography/app/partials/view1/view1.html",
+		"/Users/abutler-/Sites/jbutlerphotography/bower.json",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/content.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/grid.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/header.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/navigation.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/fonts.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/mixins.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/hero.scss",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/js/main.js",
+		"/Users/abutler-/Sites/jbutlerphotography/app/view1/view1.html",
+		"/Users/abutler-/Sites/angular-phonecat/app/js/filters.js",
+		"/Users/abutler-/Sites/jbutlerphotography/app/view2/view2-details.html",
+		"/Users/abutler-/Sites/jbutlerphotography/app/view2/view2.html",
+		"/Users/abutler-/Sites/jbutlerphotography/app/view2/phones.json",
+		"/Users/abutler-/Sites/jbutlerphotography/app/view2/view2.js",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/js/lory.min.js",
+		"/Users/abutler-/Sites/jbutlerphotography/app/assets/js/jquery.min.js",
+		"/Users/abutler-/Sites/jbutlerphotography/app/bower_components/lory/demo/index.html",
 		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/main.scss",
 		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/boiler.scss",
 		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/footer.scss",
-		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/content.scss",
-		"/Users/abutler-/Sites/jbutlerphotography/app/assets/sass/header.scss",
 		"/Users/abutler-/Sites/jbutlerphotography/app/index.php",
-		"/Users/abutler-/Sites/jbutlerphotography/bower.json",
 		"/Users/abutler-/Sites/jbutlerphotography/app/index-async.html",
 		"/Applications/MAMP/htdocs/jbutlerphotography/assets/sass/boiler.scss",
 		"/Applications/MAMP/htdocs/jbutlerphotography/assets/sass/normalize.scss",
@@ -277,7 +293,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/abutler-/Sites/jbutlerphotography"
@@ -288,6 +304,34 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\" :",
+			"{",
+			"wasp",
+			"wadhurst-flower",
+			"spinning",
+			"D300\" ",
+			"mcro",
+			"Macro",
+			"egyptian-rock",
+			"age",
+			"phones.json",
+			"motorola-xoom-with-wi-fi.0.jpg",
+			"img/",
+			"view-frame",
+			"PhoneDetailCtrl",
+			"snippet",
+			"image",
+			"<span class=\"cta__button\">View</span>",
+			"preventDefault",
+			"55",
+			"class=\"column small-12\"",
+			"firesans'",
+			"10px",
+			"FFF",
+			"231f20",
+			"{\n",
+			"222",
+			"5px",
 			".frame",
 			"dispatchEvent",
 			"target",
@@ -337,12 +381,8 @@
 						"selection":
 						[
 							[
-								189,
-								189
-							],
-							[
-								217,
-								217
+								246,
+								246
 							]
 						],
 						"settings":
@@ -358,44 +398,18 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/view1/view1.html",
+					"file": "app/partials/view2/view2.html",
 					"settings":
 					{
-						"buffer_size": 39,
+						"buffer_size": 889,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								39,
-								39
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/index.html",
-					"settings":
-					{
-						"buffer_size": 7095,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3348,
-								3348
+								759,
+								422
 							]
 						],
 						"settings":
@@ -405,58 +419,32 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 276.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/assets/js/lory.min.js",
-					"settings":
-					{
-						"buffer_size": 6217,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								6217
-							]
-						],
-						"settings":
-						{
-							"auto_name": "!function(e,t){\"object\"==typeof exports&&\"object\"=",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 42786.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/assets/js/jquery.min.js",
+					"buffer": 2,
+					"file": "app/partials/view2/view2-details.html",
 					"settings":
 					{
-						"buffer_size": 84345,
+						"buffer_size": 811,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32159,
-								32159
+								337,
+								337
 							]
 						],
 						"settings":
 						{
-							"auto_name": "/*! jQuery v2.1.4 | (c) 2005, 2015 jQuery Foundati",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -465,25 +453,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "app/bower_components/lory/demo/index.html",
+					"buffer": 3,
+					"file": "app/partials/view2/view2.js",
 					"settings":
 					{
-						"buffer_size": 28866,
+						"buffer_size": 724,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								719,
+								719
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -495,132 +483,23 @@
 			]
 		},
 		{
-			"selected": 5,
+			"selected": 8,
 			"sheets":
 			[
 				{
-					"buffer": 6,
-					"file": "app/assets/sass/helper.scss",
+					"buffer": 4,
+					"file": "app/assets/sass/animations.scss",
 					"settings":
 					{
-						"buffer_size": 1391,
+						"buffer_size": 590,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								284,
-								284
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/assets/sass/header.scss",
-					"settings":
-					{
-						"buffer_size": 707,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/assets/sass/navigation.scss",
-					"settings":
-					{
-						"buffer_size": 720,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								88,
-								88
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/assets/sass/fonts.scss",
-					"settings":
-					{
-						"buffer_size": 529,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								254,
-								254
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/assets/sass/mixins.scss",
-					"settings":
-					{
-						"buffer_size": 3108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								179,
-								179
+								430,
+								430
 							]
 						],
 						"settings":
@@ -636,19 +515,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "app/assets/sass/hero.scss",
+					"buffer": 5,
+					"file": "app/assets/sass/content.scss",
 					"settings":
 					{
-						"buffer_size": 336,
+						"buffer_size": 1451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								326,
-								326
+								404,
+								404
 							]
 						],
 						"settings":
@@ -657,25 +536,159 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 68.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 12,
-					"file": "app/assets/sass/main.scss",
+					"buffer": 6,
+					"file": "/Users/abutler-/Sites/angularSeedBoot/angularjs-bootstrap-seed/app/index.html",
 					"settings":
 					{
-						"buffer_size": 232,
+						"buffer_size": 2659,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								158,
-								158
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/assets/js/services.js",
+					"settings":
+					{
+						"buffer_size": 316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/partials/view1/view1.js",
+					"settings":
+					{
+						"buffer_size": 276,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/assets/js/animations.js",
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								39,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "bower.json",
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								435,
+								435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/assets/sass/main.scss",
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
 							]
 						],
 						"settings":
@@ -689,25 +702,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "app/assets/js/main.js",
+					"buffer": 12,
+					"file": "app/data/bubble-rose.json",
 					"settings":
 					{
-						"buffer_size": 1600,
+						"buffer_size": 287,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								888,
-								888
+								212,
+								2
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -716,24 +730,24 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "/Users/abutler-/Sites/angularSeedBoot/angularjs-bootstrap-seed/app/index.html",
+					"buffer": 13,
+					"file": "app/data/phones.json",
 					"settings":
 					{
-						"buffer_size": 2659,
+						"buffer_size": 5684,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2115,
-								2115
+								667,
+								338
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
@@ -752,7 +766,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -774,7 +788,7 @@
 		"cols":
 		[
 			0.0,
-			0.357018180181,
+			0.400477160225,
 			1.0
 		],
 		"rows":

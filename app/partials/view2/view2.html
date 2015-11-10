@@ -1,0 +1,24 @@
+<section>
+  <div class="column small-12">
+    <h1>Photography Gallery</h1>
+  </div>
+  <div class="utility__controls column small-12">
+    <input id="dateAsc" type="radio" name="sortby" value="date" ng-model="orderProp" selected> 
+    <label for="dateAsc">New</label> 
+    <input id="dateDesc" type="radio" name="sortby" value="-date" ng-model="orderProp"> 
+    <label for="dateDesc">Old</label> 
+  </div>
+  <ul class="gallery__thumbnails">
+    <li ng-repeat="phone in phones | orderBy:orderProp" class="thumbnail phone-listing column small-4 medium-3 no-padding">
+      <a href="#/view2/{{phone.id}}" class="thumb">
+        <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
+        <source media="(min-width: 900px)" srcset="assets/img/gallery/medium/{{phone.imageUrl}}"></source>
+        <!--[if IE 9]></video><![endif]-->
+        <img alt="selfportrait" srcset="assets/img/gallery/small/{{phone.imageUrl}}">
+        </picture>
+<!--           <a href="#/view2/{{phone.id}}">{{phone.name}}</a>
+      <p>{{phone.snippet}}</p> -->
+    </li>
+  </ul>
+</section>
