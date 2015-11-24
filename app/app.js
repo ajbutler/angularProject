@@ -4,11 +4,11 @@
 angular.module('myApp', [
   'ngRoute',
   'phonecatAnimations',
-  'myApp.view1',
-  'myApp.view2',
+  'myApp.home',
+  'myApp.gallery',
   'myApp.version',
   'phonecatServices'
 ]).
 config(['$routeProvider', function($routeProvider) {
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.otherwise({redirectTo: '/home'});
 }]);

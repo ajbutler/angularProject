@@ -1,0 +1,38 @@
+<div class="hero__slider">
+  <picture>
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1024px)" srcset="assets/img/gallery/large/{{phone.imageUrl}}"></source>
+    <source media="(min-width: 650px)" srcset="assets/img/gallery/medium/{{phone.imageUrl}}"></source>
+    <!--[if IE 9]></video><![endif]-->
+    <img alt="selfportrait" srcset="assets/img/gallery/small/{{phone.imageUrl}}">
+  </picture>
+</div>
+<div class="utility__controls column small-12">
+  <a href="#/gallery">
+<svg viewBox="0 0 501.5 501.5" height="50" width="50" xmlns="http://www.w3.org/2000/svg"><g><path d="M302.67 90.877l55.77 55.508L254.575 250.75 358.44 355.116l-55.77 55.506L143.56 250.75z" fill="#2E435A"/></g></svg>
+  </a>
+</div>
+<h1>{{phone.name}}</h1>
+
+<p>{{phone.description}}</p>
+
+<ul class="phone-thumbs">
+  <li ng-repeat="img in phone.images">
+    <img ng-src="{{img}}">
+  </li>
+</ul>
+
+<ul class="specs">
+  <li>
+    <span>Availability and Networks</span>
+    <dl>
+      <dt>Availability</dt>
+      <dd ng-repeat="availability in phone.availability">{{availability}}</dd>
+    </dl>
+  </li>
+    ...
+  <li>
+    <span>Additional Features</span>
+    <dd>{{phone.additionalFeatures}}</dd>
+  </li>
+</ul>

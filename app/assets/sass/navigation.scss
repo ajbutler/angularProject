@@ -5,44 +5,103 @@
 	left: 100vw;
 	z-index: 200;
 
-	ul {
+	.menu {
 		width: 100vw;
 		list-style: none;
 		margin: 0;
 		padding: 0;
 		right: 0;
-		li {
-			background-color: rgba(55,55,55,0.6);
-			border-top: 1px solid rgba(55,55,55,0.60);
+		> li {
+			border-top: 1px solid rgba(55,55,55,.9);
 			transform: translate(0, 0);
 			-webkit-transform: translate(0, 0);
-			@include transition(all 0.4s linear,-webkit-transform 0.4s linear, background-color 0.4s linear);
+			@include transition(all 0.4s linear);
 
-			&:hover {
-				background-color: rgba(55,55,55,1);
-
-				+ li {
-					border-top: 1px solid rgba(55,55,55,1);
-				}
+			&:hover	+ li {
+				border-top: 1px solid rgba(55,55,55,1);
 			}
 
 			&.is--visible {
 				-webkit-transform: translate(-100vw, 0);
 				transform: translate(-100vw, 0);
 			}
-			a {
-				display: block;
-				width: 100%;
-				padding: 12px 20px;
-				color: #FFF;
-				text-decoration: none;
-    			font: 14px 'firesans', arial;
-	    		letter-spacing: 2px;
-	   			text-transform: uppercase;
-	   			@include transition(color .6s ease);
+		}
 
-	   			&:hover {
-	   				color: $secondary-color2;
+		a {
+			display: block;
+			width: 100%;
+			padding: 12px 20px;
+			color: #FFF;
+			text-decoration: none;
+			font: 14px 'firesans', arial;
+    		letter-spacing: 2px;
+   			text-transform: uppercase;
+			background-color: rgba(55,55,55,0.6);
+   			@include transition(color .6s ease, background-color 0.4s linear);
+
+   			&:hover,
+   			&.is--active {
+   				color: $secondary-color2;
+   				background-color: rgba(55,55,55,1);
+   			}
+		}
+
+		a.is--active {
+			.vertical {
+				-webkit-transform: rotate(270deg);
+				transform: rotate(270deg);
+			}			
+			.horizontal {
+				-webkit-transform: rotate(180deg);
+				transform: rotate(180deg);
+			}
+
+			+ .submenu {
+				max-height: 500px;
+			}
+		}
+
+		.vertical {
+			height: 15px;
+			width: 1px;
+			right: 20px;
+			top: 15px;
+		}
+		
+		.horizontal {
+			height: 1px;
+			width: 15px;
+			right: 13px;
+			top: 22px;
+		}
+
+		.vertical,
+		.horizontal {
+			display: block;
+			position: absolute;
+			background-color: #FFF;
+			@include transition(all 0.4s linear)
+		}
+
+		.submenu {
+			max-height: 0;
+			overflow: hidden;
+			padding: 0;
+			margin: 0;
+			@include transition(max-height 1s ease);
+
+			li {
+				list-style: none;
+				border-top: 1px solid rgba(25,25,25,.9);
+			}
+
+			a {
+				font-size: 11px;
+				padding-left: 30px;
+				background-color: rgba(0, 0, 0, 0.6);
+
+				&:hover {
+	   				background-color: rgba(25,25,25,1);
 	   			}
 			}
 		}

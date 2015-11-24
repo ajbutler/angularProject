@@ -1,5 +1,4 @@
 .hero__slider {
-
 	.frame {
 		width: 100vw;
 		position: relative;
@@ -23,7 +22,14 @@
 		position: relative; 
 		display: inline-block;
 		width: 100vw;
+	}
 
+	img {
+		width: 100%;
+		pointer-events: none;
+	}
+
+	&.full-height {
 		img {
 			height: calc(100vh - 50px);
 			width: auto;
@@ -51,5 +57,39 @@
 			height: 70px;
 			fill: #FFF;
 		}
+	}
+}
+
+.hero__static {
+	display: block;
+	height: 150px;
+	position: relative;
+	background-color: #000;
+	overflow: hidden;
+	.content {
+		width: 100%;
+		position: absolute;
+		top: 28%;
+		text-align: center;
+	}
+	h1 {
+		color: #FFF;
+		font-size: 18px;
+		position: absolute;
+		line-height: 150px;
+		text-align: center;
+		top: 0;
+		width: 100%;
+	}
+	.img {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 130%;
+		height: calc(100% + 30px);
+		width:	calc(100% + 30px);
+		filter: blur(10px);
+		-webkit-filter: blur(10px); 
+		margin: -10px 0 0 -20px;
+		opacity: 0.6;
 	}
 }
